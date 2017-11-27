@@ -14,5 +14,5 @@ RSpec.describe User, type: :model do
     @user.current_cart = @user.carts.create
     expect(@user.current_cart).to be_a(Cart)
   end
-
+  
 end
